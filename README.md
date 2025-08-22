@@ -73,6 +73,7 @@ Beginner Arduino projects
 Simulation of combinational logic circuits 
 # CIRCUIT DIAGRAM
 <img width="732" height="740" alt="image" src="https://github.com/user-attachments/assets/96a8bb3a-a3ca-4382-a1bf-f91650cbd77e" />
+
 # PROGRAM
 ```
 int A=2,B=3;
@@ -95,6 +96,7 @@ void loop() {
   digitalWrite(XOR_LED,a^b);
 }
 ```
+
 # OUTPUT:
 <img width="757" height="795" alt="image" src="https://github.com/user-attachments/assets/e07e149e-0836-411b-8f6b-c18a0d6de72c" />
 
