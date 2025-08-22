@@ -71,5 +71,34 @@ Educational demonstrations in labs
 Beginner Arduino projects 
 
 Simulation of combinational logic circuits 
+# CIRCUIT DIAGRAM
+<img width="732" height="740" alt="image" src="https://github.com/user-attachments/assets/96a8bb3a-a3ca-4382-a1bf-f91650cbd77e" />
+# PROGRAM
+```
+int A=2,B=3;
+int AND_LED=4,OR_LED=5,NOTA_LED=6,XOR_LED=7;
+
+void setup() {
+  pinMode(A,INPUT);
+  pinMode(B,INPUT);
+  pinMode(AND_LED,OUTPUT);
+  pinMode(OR_LED,OUTPUT);
+  pinMode(NOTA_LED,OUTPUT);
+  pinMode(XOR_LED,OUTPUT);
+}
+
+void loop() {
+  int a=digitalRead(A), b=digitalRead(B);
+  digitalWrite(AND_LED,a&&b);
+  digitalWrite(OR_LED,a||b);
+  digitalWrite(NOTA_LED,!a);
+  digitalWrite(XOR_LED,a^b);
+}
+```
+# OUTPUT:
+<img width="757" height="795" alt="image" src="https://github.com/user-attachments/assets/e07e149e-0836-411b-8f6b-c18a0d6de72c" />
+
+
+
 
 
